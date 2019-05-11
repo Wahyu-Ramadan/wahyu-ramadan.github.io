@@ -122,4 +122,3 @@ spline=function(data)
   cat("\n GCV minimum = ",GCVmin,"\t Knot Optimal = ",Knot.op)
   plot(knot,GCVall,type="l",lwd=2)
 }
-spline(Dataset)
