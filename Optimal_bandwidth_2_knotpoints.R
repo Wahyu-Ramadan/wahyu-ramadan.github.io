@@ -126,4 +126,3 @@ spline=function(data)
   knot=seq(1,d,1)
   plot(knot,GCV,type="l",lwd=2)
 }
-spline(Dataset)
