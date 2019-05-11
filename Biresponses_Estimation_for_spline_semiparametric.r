@@ -291,5 +291,4 @@ spline=function(data)
   win.graph()
   plot(Unit_Observasi,respon_2,main = "Plot estimasi parsial nilai UNBK KK oleh nilai ujian sekolah",col="red",type="p")
   lines(Unit_Observasi,ytopi2,main = "Plot estimasi parsial nilai UNBK KK oleh nilai ujian sekolah",col="blue",type="l",lwd=3)
-  
 }
